@@ -1,0 +1,106 @@
+/* "Dirty" circle color */
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container.active
+  > .title
+  .tabs-container
+  > .tab.dirty
+  > .tab-close
+  .action-label:not(:hover):before,
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.dirty
+  > .tab-close
+  .action-label:not(:hover):before,
+.explorer-viewlet
+  .explorer-open-editors
+  .monaco-list
+  .monaco-list-row.dirty:not(:hover)
+  > .monaco-action-bar
+  .codicon-close:before {
+  color: rgb(255, 0, 0);
+}
+
+/* Active-item-indicator:before color */
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-item.checked
+  .active-item-indicator:before {
+  border-left-color: rgb(255, 198, 0);
+}
+
+/* Border just under the title bar */
+.monaco-workbench .part.editor > .content .editor-group-container {
+  border-top: 1px solid #15232d !important;
+}
+
+/* Vertical border between multiple .split-view-view */
+.monaco-split-view2.separator-border.horizontal
+  > .split-view-container
+  > .split-view-view:not(:first-child):before {
+  border-left: 1px solid #15232d !important;
+}
+
+/* Horizontal border between multiple .split-view-view */
+.monaco-split-view2.separator-border.vertical
+  > .split-view-container
+  > .split-view-view:not(:first-child):before {
+  border-top: 1px solid #15232d !important;
+}
+
+/* Thin yellow border around the found items like Sublime */
+.monaco-editor .findMatch,
+.monaco-editor .selectionHighlight {
+  border: 1px solid #ffc600;
+  border-radius: 2px;
+  background: transparent;
+}
+
+/* Inset minimap scrollbar shadow */
+.monaco-editor .minimap .minimap-shadow-visible {
+  box-shadow: rgba(0, 0, 0, 0.4) -6px 0 6px -6px inset !important;
+}
+
+/* This accounts for larger font cutting off - bump up 3px */
+.monaco-workbench
+  .activitybar
+  > .content
+  .monaco-action-bar
+  .badge
+  .badge-content {
+  top: 17px !important;
+}
+
+/* Tab background color and border color */
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.close-button-left {
+  background-color: rgb(18, 39, 56) !important;
+  border: 1px solid rgb(25, 53, 73) !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+
+/* Active tab background color and border color */
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.close-button-left.active {
+  background-color: rgb(25, 53, 73) !important;
+  border: 1px solid rgb(18, 39, 56) !important;
+}
