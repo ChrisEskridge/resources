@@ -1,0 +1,54 @@
+{
+  /* Custom editor settings */
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontFamily": "Fira Code iScript, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.fontWeight": "400",
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "phase",
+  "files.trimTrailingWhitespace": true,
+  "workbench.editor.tabCloseButton": "left",
+  "editor.renderWhitespace": "all",
+  "editor.find.autoFindInSelection": "multiline",
+  "editor.wordWrapColumn": 120,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/_notes": true,
+    "**/.DS_Store": true
+  },
+  /* Custom syntax colors */
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "source.css entity"
+        ],
+        "settings": {
+          /* Default color */
+          "foreground": "#3ad900"
+        }
+      }
+    ]
+  },
+  /* Custom css and js */
+  "vscode_custom_css.imports": [
+    "file:///Users/christophereskridge/Documents/_Web/_vscode/resources/vscode-custom.css"
+  ],
+  "vscode_custom_css.policy": true,
+  /* Material icon theme */
+  "workbench.iconTheme": "material-icon-theme",
+  /* Prettier */
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 120,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.autofetch": true
+  //"prettier.eslintIntegration": true,
+}
