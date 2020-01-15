@@ -1,0 +1,8 @@
+# Default dreamweaver file
+_notes
+
+# Default mac file
+.DS_Store
+
+# Sensitive wordpress file
+wp-config.php
