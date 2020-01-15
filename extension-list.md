@@ -1,12 +1,12 @@
-Auto Rename Tag
-Bracket Pair Colorizer 2
-Cobalt2 Theme Official
-Custom CSS and JS Loader
-GitLens - Git Supercharged
-Highlight Matching Tag
-HTML CSS Support
-htmltagwrap
-Live Server
-Material Icon Theme
-Pretter - Code formatter
+Auto Rename Tag<br>
+Bracket Pair Colorizer 2<br>
+Cobalt2 Theme Official<br>
+Custom CSS and JS Loader<br>
+GitLens - Git Supercharged<br>
+Highlight Matching Tag<br>
+HTML CSS Support<br>
+htmltagwrap<br>
+Live Server<br>
+Material Icon Theme<br>
+Pretter - Code formatter<br>
 Project Manager
