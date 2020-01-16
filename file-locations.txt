@@ -1,0 +1,5 @@
+# user settings (settings.json)
+~/Library/Application Support/Code - Insiders/User/settings.json
+
+# git commit template (.git-commit-template)
+~/.git-commit-template
